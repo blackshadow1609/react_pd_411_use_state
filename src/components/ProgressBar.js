@@ -1,17 +1,19 @@
 import './ProgressBar.css';
 
-function ProgressBar({ precentage }) {
+function ProgressBar({ percentage }) {
     const getColor = () => {
-        if (precentage < 40) return "#FF0000";
-        else if (precentage < 70) return "#FFA500";
+        if (percentage < 40) return "#FF0000";
+        else if (percentage < 70) return "#FFA500";
         else return "#2ECC71";
     }
     return (
         <div className='progress-bar'>
-            <div className='progress-bar-fill' style={{ width: `${precentage}%`, background: getColor() }}>
-
-            </div>
+            <div
+                className='progress-bar-fill'
+                style={{ width: `${percentage}%`, background: getColor() }}
+            />
         </div>
     )
 }
+
 export default ProgressBar;
