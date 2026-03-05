@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_pd_411_use_state/static/css/main.014b6a2d.css",
+    "main.js": "/react_pd_411_use_state/static/js/main.51df743c.js",
+    "index.html": "/react_pd_411_use_state/index.html",
+    "main.014b6a2d.css.map": "/react_pd_411_use_state/static/css/main.014b6a2d.css.map",
+    "main.51df743c.js.map": "/react_pd_411_use_state/static/js/main.51df743c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.014b6a2d.css",
+    "static/js/main.51df743c.js"
+  ]
+}
